@@ -1,4 +1,4 @@
-mcms-node-menus
+#mcms-node-menus
 ======================
 
 Menu manager for express
