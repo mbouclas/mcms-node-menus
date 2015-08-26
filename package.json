@@ -1,6 +1,6 @@
 {
   "name": "mcms-node-menus",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -27,11 +27,15 @@
   "bugs": {
     "url": "https://github.com/mbouclas/mcms-node-menus/issues"
   },
-  "readmeFilename": "readme.md",
+  "readmeFilename": "README.md",
   "dependencies": {
+    "async": "^1.2.1",
     "html-sourcery": "^0.1.5",
     "lodash": "^3.6.0",
-    "slug": "^0.8.0",
+    "mcms-node-localization": "0.0.3",
+    "mongoose": "^4.0.5",
+    "mongoose-materialized": "^0.1.8",
+    "slug": "^0.9.1",
     "string": "^3.1.1"
   }
 }
